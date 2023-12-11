@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to top, rgb(110, 91, 255),rgb(0, 67, 93));
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    margin-top: 10%;
+    background-image: linear-gradient(blue,blueviolet);
+    padding: 19px;
+    border: rgb(0, 8, 78) solid 7px;
+    border-radius: 5px;
+}
+#name{
+    margin-left: 26px;
+    padding: 0px;
+    text-align: center;
+    border: blue solid 3px;
+    border-radius: 10%;
+}
+#password{
+    padding: 0px;
+    text-align: center;
+    border: blue solid 3px;
+    border-radius: 10%;
+}
+.btn-login{
+    background-image: linear-gradient(blue,darkblue);
+    padding: 7px;
+    margin-left: 75%;
+}
+.btn-name{
+    text-decoration: none;
+    color: white;
+}
